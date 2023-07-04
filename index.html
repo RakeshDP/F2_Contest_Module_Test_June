@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management CRUD</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="addStudent">
+      <h1>Student Management CRUD</h1>
+      <div id="inputs"> 
+        <input type="text" placeholder="Name" name="name"  required/>
+        <input type="Email" placeholder="Email" name="email" required />
+        <input type="text" placeholder="Grade" name="grade"/>
+        <input type="number" placeholder="Age" name="age" />
+        <input type="text" placeholder="Degree" name="degree" required/>
+      </div>
+      <button id="button">Add Student</button>
+    </section>
+
+    <section>
+      <input
+        type="text"
+        name="Search"
+        id="searchStudent"
+        placeholder="Search By Name, email or degree"
+      /><button id="searchButton">Search</button>
+      <table id="tableData">
+        <thead id="table">
+            <tr>
+                <th id="id" width="6%">ID</th>
+                <th id="name" width="30%">Student Name</th>
+                <th id="email" width="30%" >Email</th>
+                <th id="age" width="6%">Age</th>
+                <th id="grade" width="6%">Grade</th>
+                <th id="degree" width="">Degree</th>
+            </tr>
+        </thead>
+        
+        <tbody id="dataOfStudent">
+        </tbody>
+      </table>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    color: white;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    padding:10px;
+    margin: 10px;
+    font-size: 48px;
+}
+#inputs input{
+    margin: 10px;
+    width: 30%;
+    height: 40px;
+    gap: 30px;
+    border: 1px white solid;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+#button{
+    width: 40%;
+    height: 40px;
+    background-color:#FFFFFF;
+    color: #000000;
+    border-radius: 25px;
+    margin: 10px;
+    text-align: center;
+}
+#searchStudent{
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    border: 1px #FFFFFF solid;
+}
+table{
+    margin-top: 50px;
+    margin-left: 10px;
+    width:98%;
+    border: 1px solid #FFFFFF;
+    border-collapse: collapse;
+    padding-left: 10px;
+}
+thead,tbody,tr,td,th {
+    border:1px solid #FFFFFF;
+    padding: 5px;
+    padding-left: 10px;
+    border-collapse: collapse;
+}
+
+#both{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#delete ,#edit{
+  padding: 5px;
+  margin: 5px;
+}
+#searchButton{
+    width: 35%;
+    height: 40px;
+    background-color:#FFFFFF;
+    color: #000000;
+    border-radius: 25px;
+    margin: 15px;
+    text-align: center;
+}
